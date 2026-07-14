@@ -11,19 +11,22 @@ UPVOTE_API_KEY=upv_... npm start          # local stdio test
 npx @anthropic-ai/mcpb pack               # produces upvote-club.mcpb
 ```
 
+## Setup
+
+1. **https://upvote.club** — register
+2. **MATE** plan  
+3. **https://upvote.club/api** — generate key
+4. Install `.mcpb` → paste key
+
 ## Install
 
-1. Double-click `upvote-club.mcpb` (or drag into Claude Desktop)
-2. Paste your API key when prompted
-3. Ask Claude: *"Promote this Product Hunt launch with 50 upvotes: https://..."*
-
-## Icon
-
-Place a 512×512 PNG at `mcpb/icon.png` before packing (referenced in `manifest.json`).
+1. Double-click `upvote-club.mcpb`
+2. Paste API key from https://upvote.club/api
+3. Ask Claude to promote a link
 
 ## Tools
 
-All 7 Public API tools — see [../docs/ENDPOINT_MAP.md](../docs/ENDPOINT_MAP.md).
+6 tools — see https://github.com/alxgntv/upvote-club-mcp-core/blob/main/docs/API_REFERENCE.md
 
 ## Privacy
 
