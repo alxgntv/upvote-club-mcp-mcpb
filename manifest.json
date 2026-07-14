@@ -27,6 +27,7 @@
     }
   },
   "tools": [
+    { "name": "get_api_reference", "description": "Full API reference: examples, minimum prices, error catalog" },
     { "name": "list_platforms", "description": "List supported platforms, actions and minimum prices" },
     { "name": "list_api_keys", "description": "List active API key metadata (requires JWT in UPVOTE_JWT env if configured)" },
     { "name": "generate_api_key", "description": "Generate a new API key (requires JWT)" },
